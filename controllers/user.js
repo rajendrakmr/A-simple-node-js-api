@@ -118,7 +118,14 @@ router.get(
                 date:result
             })
         })
-    }
-
+    } 
 );
+
+// update user   
+// method:get
+// url:/api/user/update
+
+// delete user   
+// method:get
+// url:/api/user/delete
 module.exports = router;
