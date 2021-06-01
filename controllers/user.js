@@ -92,15 +92,13 @@ router.post(
                 message: "inserted success..",
                 data: result
             })
-        })
+        });
     }
-);
-
+); 
 
 // get all user   
 // method:get
-// url:/api/user
-
+// url:/api/user 
 router.get(
     '/find',
     function (req, res) {
